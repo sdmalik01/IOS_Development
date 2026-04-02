@@ -1,0 +1,40 @@
+// Getting Started 
+
+var greeting = "Hello, playground"
+let Name = "Malik"
+var age = 22
+
+let CityName: String = "Aurangabad"
+var Pincode: Int = 431001
+
+print(Name, age, CityName, Pincode)
+
+//Arithmetic Operators
+
+var a = 10
+var b = 20
+var c = 30
+
+var result_add = a + b
+var result_subs = a - b
+var result_multi = a * b
+var result_divi = a / b
+
+print(result_add, result_subs, result_multi, result_divi)
+
+// User define datatypes
+
+struct SoCalledFriends{
+    var first: String
+    var Second: String
+    var Third: String
+}
+
+// Distance Calculator example
+
+var TotalDistance : Double = 200.56
+var TravelDistance : Double = 129.52
+
+var RemainDistance = TotalDistance - TravelDistance
+
+print(RemainDistance)
